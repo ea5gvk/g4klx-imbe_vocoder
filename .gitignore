@@ -1,0 +1,16 @@
+Debug
+Release
+x64
+*.a
+*.o
+*.opendb
+*.bak
+*.obj
+*~
+*.sdf
+*.log
+*.zip
+*.lib
+*.user
+*.VC.db
+.vs
