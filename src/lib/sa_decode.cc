@@ -80,7 +80,7 @@ void imbe_vocoder_impl::sa_decode(IMBE_PARAM *imbe_param)
 	UWord16 index, index_1, num_harms;
 	Word16 *gss_ptr, *ba_ptr, i, j, *t_vec_ptr, *b_vec_ptr;
 	Word16 t_vec[NUM_HARMS_MAX], c_vec[MAX_BLOCK_LEN];
-	Word32 lmprbl_item;
+	UWord32 lmprbl_item;
 	Word16 bl_len, step_size, num_bits, tmp, ro_coef, si_coef, tmp1;
 	UWord32 k_coef, k_acc;
 	Word32 sum, tmp_word32, sa_tmp[NUM_HARMS_MAX];

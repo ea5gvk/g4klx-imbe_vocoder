@@ -41,7 +41,8 @@
 //-----------------------------------------------------------------------------
 const UWord16 *get_bit_allocation_arr(Word16 num_harms)
 {
-	Word16 offset_in_word, index;
+    UWord16 offset_in_word;
+    Word16 index;
 
 	if(num_harms == NUM_HARMS_MIN)
 		return &bit_allocation_tbl[0];
