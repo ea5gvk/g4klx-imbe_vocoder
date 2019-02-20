@@ -4,9 +4,9 @@
  * Version 1.0 (c) Copyright 2009
  */
 
-#include <stdio.h>
+#include <cstdio>
 
-#include <imbe_vocoder_impl.h>
+#include "imbe_vocoder_impl.h"
 
 static bool already_printed = false;
 

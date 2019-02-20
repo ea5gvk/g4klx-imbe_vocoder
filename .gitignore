@@ -3,6 +3,7 @@ Release
 x64
 *.a
 *.o
+*.d
 *.opendb
 *.bak
 *.obj
