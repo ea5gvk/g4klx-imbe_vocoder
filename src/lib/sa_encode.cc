@@ -30,8 +30,8 @@
 #include "dsp_sub.h"
 #include "math_sub.h"
 
-#include <stdio.h>
-#include <math.h>
+#include <cstdio>
+#include <cmath>
 #include "encode.h"
 #include "imbe_vocoder_impl.h"
 

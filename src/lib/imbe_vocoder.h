@@ -7,7 +7,7 @@
 #ifndef INCLUDED_IMBE_VOCODER_H
 #define INCLUDED_IMBE_VOCODER_H
 
-#include <stdint.h>
+#include <cstdint>
 
 class imbe_vocoder_impl;
 class imbe_vocoder

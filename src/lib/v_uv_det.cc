@@ -30,9 +30,9 @@
 #include "tbls.h"
 #include "v_uv_det.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
 #include "encode.h"
 #include "imbe_vocoder_impl.h"
 

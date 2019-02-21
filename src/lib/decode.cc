@@ -33,7 +33,7 @@
 #include "dsp_sub.h"
 #include "imbe_vocoder_impl.h"
 
-#include <string.h>
+#include <cstring>
 
 
 

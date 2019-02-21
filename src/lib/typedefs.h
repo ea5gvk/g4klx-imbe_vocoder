@@ -69,8 +69,8 @@
 *                         INCLUDE FILES
 ********************************************************************************
 */
-#include <float.h>
-#include <limits.h>
+#include <cfloat>
+#include <climits>
 
 #define __MSDOS__
 

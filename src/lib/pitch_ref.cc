@@ -30,9 +30,9 @@
 #include "tbls.h"
 #include "pitch_ref.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
 
 
 #define PITCH_REF_FRAME  221

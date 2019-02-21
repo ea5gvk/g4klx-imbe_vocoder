@@ -32,8 +32,8 @@
  |___________________________________________________________________________|
 */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include "typedef.h"
 #include "basic_op.h"
 

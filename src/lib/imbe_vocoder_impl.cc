@@ -8,8 +8,6 @@
 
 #include "imbe_vocoder_impl.h"
 
-static bool already_printed = false;
-
 imbe_vocoder_impl::imbe_vocoder_impl (void) :
 	prev_pitch(0),
 	prev_prev_pitch(0),
@@ -41,14 +39,4 @@ imbe_vocoder_impl::imbe_vocoder_impl (void) :
 
 	decode_init(&my_imbe_param);
 	encode_init();
-
-	if (!already_printed) {
-		already_printed = 1;
-		fprintf(stderr,"Project 25 IMBE Encoder/Decoder Fixed-Point implementation\n");
-		fprintf(stderr,"Developed by Pavel Yazev E-mail: pyazev@gmail.com\n");
-		fprintf(stderr,"Version 1.0 (c) Copyright 2009\n");
-		fprintf(stderr,"This program comes with ABSOLUTELY NO WARRANTY.\n");
-		fprintf(stderr,"This is free software, and you are welcome to redistribute it\n");
-		fprintf(stderr,"under certain conditions; see the file ``LICENSE'' for details.\n");
-	}
 }

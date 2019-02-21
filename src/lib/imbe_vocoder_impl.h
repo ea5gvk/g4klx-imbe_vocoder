@@ -7,8 +7,8 @@
 #ifndef INCLUDED_IMBE_VOCODER_IMPL_H
 #define INCLUDED_IMBE_VOCODER_IMPL_H
 
-#include <stdint.h>
-#include <string.h>
+#include <cstdint>
+#include <cstring>
 
 #include "imbe.h"
 #include "dsp_sub.h"
